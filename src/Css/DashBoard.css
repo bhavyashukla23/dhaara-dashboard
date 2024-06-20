@@ -19,18 +19,18 @@
 
 .buttons {
     display: flex;
-    gap: 10px; 
-    flex-wrap: wrap; 
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .heading-main {
     margin-left: 10px;
     margin-bottom: -10px;
     color: black;
-    flex: 1; 
+    flex: 1;
 }
 
-.desc{
+.desc {
     color: black;
 }
 
@@ -70,7 +70,7 @@
 
 .member-status {
     margin-left: 50px;
-    flex: 1; 
+    flex: 1;
 }
 
 .activity-status {
@@ -121,7 +121,6 @@
     margin: 20px 0;
 }
 
-
 .pdf-heading {
     margin-right: 10px;
     font-weight: bold;
@@ -144,5 +143,3 @@
 .pdf-download:last-child {
     margin-right: 0;
 }
-
-
