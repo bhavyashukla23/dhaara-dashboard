@@ -1,0 +1,148 @@
+.parent-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+.heading-main {
+    margin-left: 10px;
+    margin-bottom: -10px;
+    color: black;
+    flex: 1; 
+}
+
+.desc{
+    color: black;
+}
+
+.icon {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    color: grey;
+}
+
+.download {
+    min-height: 28px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+.row-2 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.tier-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box-1 {
+    max-width: fit-content;
+}
+
+.member-status {
+    margin-left: 50px;
+    flex: 1; 
+}
+
+.activity-status {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.status-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-icon {
+    margin-right: 5px;
+    height: 25px;
+}
+
+.green {
+    color: white;
+    background-color: rgb(0, 128, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.red {
+    color: white;
+    background-color: rgb(196, 37, 37);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.p {
+    color: grey;
+    font-size: 15px;
+}
+
+.filter {
+    color: black;
+    min-width: 50%;
+}
+
+.tier-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+
+.pdf-heading {
+    margin-right: 10px;
+    font-weight: bold;
+    color: rgb(28, 176, 226);
+}
+
+.pdf-icon {
+    color: rgb(204, 6, 6);
+    height: auto;
+}
+
+.pdf-download {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-1:last-child,
+.meter-details:last-child,
+.pdf-download:last-child {
+    margin-right: 0;
+}
+
+
